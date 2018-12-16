@@ -1,6 +1,6 @@
 pipeline
 {
-	agent 'svr1'
+	agent any
 	stage("Build")
 	{
 		echo "From build stage in jenkins pipeline"
