@@ -1,8 +1,11 @@
 pipeline
 {
 	agent any
-	stage("Build")
+	stages
 	{
-		echo "From build stage in jenkins pipeline"
+		stage("Build")
+		{
+			echo "From build stage in jenkins pipeline"
+		}
 	}
 }
