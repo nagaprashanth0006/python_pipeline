@@ -5,7 +5,10 @@ pipeline
 	{
 		stage("Build")
 		{
-			echo "From build stage in jenkins pipeline"
+			steps
+			{
+				echo "From build stage in jenkins pipeline"
+			}
 		}
 	}
 }
